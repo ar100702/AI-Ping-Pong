@@ -1,0 +1,71 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start, #status, #restart{
+    font-size: 23px;
+
+}
+
+.copy_right_footer{
+    position: sticky;
+    color: darkred;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    line-height: 3;
+    text-align: center;
+  }
+
+  h4{
+    background-color: wheat;
+    line-height: 2;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+li{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#restart{
+    margin-bottom: 50px;
+}
+
+canvas{
+    border: 5px solid lightgreen;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px lightgoldenrodyellow;
+    }
+    to{
+        box-shadow: 1px 1px 38px lightgreen;
+    }
+}
